@@ -15,12 +15,48 @@ header h1 {
     color: #fafafa;
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    line-height: 400px;
 }
 
 header {
     background: #fff url(coffeemame.jpg) 0 0 no-repeat;
     height: 800px;
     width: 100%;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button {
+    text-decoration: none;
+    color: brown;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+
+}
+
+.button2 {
+    text-decoration: none;
+    color: brown;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+
+
 }
 
 p {
@@ -32,20 +68,35 @@ p {
 .top-title {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #000;
+    margin-left: 100px: color: #000;
     font-weight: 400;
     border: solid 5px #e5ab72;
     border-radius: 5px;
+
     display: table;
+    margin-left: 100px;
+    margin-top: 150px;
+
 }
 
+.l-img {
+    float: left;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.r-img {
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+/*
 img {
     margin-left: 8px;
     float: left;
-
-
-
 }
+*/
 
 .content {
     border-bottom: 3px solid #b7b3af;
