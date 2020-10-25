@@ -7,11 +7,11 @@
 
 body {
     width: 100%;
-
+    background-color: #fff4d3;
 }
 
 header h1 {
-    font-size: 80px;
+    font-size: 120px;
     color: #fafafa;
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -43,12 +43,34 @@ header {
     width: 120px;
     height: 120px;
     line-height: 120px;
+    position: relative;
+    overflow: hidden;
+    transition: all .6s ease;
 
 }
 
-.button2 {
-    text-decoration: none;
+.button:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+
+    background: #ffca81;
     color: brown;
+
+}
+
+/*
+a:hover {
+    background: #ffca81;
+    color: brown;
+
+    
+}
+*/
+
+.button2 {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
     background-color: orange;
     padding: 20px;
     border-radius: 50%;
@@ -56,13 +78,35 @@ header {
     width: 120px;
     height: 120px;
 
+}
 
+.button2:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+
+    background: #ffca81;
+    color: brown;
+
+
+}
+
+.button2 span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transform: translateY(-50%) transform: translateY(-50%)
 }
 
 p {
     color: #000;
     font-size: 20px;
-    padding-left: 8px;
+    margin-left: 30px;
 
 
 }
@@ -73,7 +117,7 @@ p {
 
 .top-title1 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 800px: color: #000;
     font-weight: 400;
     border: solid 5px #e5ab72;
@@ -86,7 +130,7 @@ p {
 
 .top-title2 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 100px: color: #000;
     font-weight: 400;
     border: solid 5px #e5ab72;
@@ -100,16 +144,16 @@ p {
 
 .l-img {
     float: left;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .r-img {
     float: right;
     margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 /*
@@ -120,7 +164,7 @@ img {
 */
 
 .content {
-    border-bottom: 3px solid #b7b3af;
+    border-bottom: 3px solid #af7c49;
     padding: 16px 0;
     overflow: hidden;
 }
